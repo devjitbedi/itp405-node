@@ -23,6 +23,7 @@ app.get('/api/genres/:id', function(request, response) {
     client: 'sqlite3',
     connection: {
       filename: 'chinook.db'
+      
     }
   });
 
